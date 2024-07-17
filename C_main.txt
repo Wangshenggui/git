@@ -1,7 +1,15 @@
 #include <stdio.h>
 
+int add(int a,int b);
+
 int main()
 {
-	printf("张三");
+	printf("张三: %d\r\n",add(3,8));
 	return 0;
+}
+
+//张三写了一个add函数，计算整数和
+int add(int a,int b)
+{
+	return a+b;
 }
