@@ -2,9 +2,9 @@
 
 
 
-
 int main()
 {
 	printf("李四");
+	printf("张三");
 	return 0;
 }
