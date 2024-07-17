@@ -3,6 +3,7 @@
 int add(int a,int b);
 int sub(int a,int b);
 int div(int a,int b);
+int mul(int a,int b);
 
 int main()
 {
@@ -10,6 +11,7 @@ int main()
 	
 	printf("%d\r\n",sub(6,9));
 	printf("%d\r\n",div(6,3));
+	printf("%d\r\n",mul(4,5));
 	return 0;
 }
 
@@ -29,4 +31,11 @@ int sub(int a,int b)
 int div(int a,int b)
 {
 	return a/b;
+}
+
+
+//张三乘法
+int mul(int a,int b)
+{
+	return a*b;
 }
