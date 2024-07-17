@@ -6,7 +6,7 @@ int sub(int a,int b);
 int main()
 {
 	printf("李四: %d\r\n",add(7+8));
-	printf("张三: %d\r\n",add(3,8));
+	
 	printf("%d\r\n",sub(6,9));
 	return 0;
 }
@@ -17,10 +17,8 @@ int add(int a,int b)
 	return a+b;
 }
 
-//李四
+//张三
 int sub(int a,int b)
 {
-	int temp;
-	temp = a - b;
-	return temp;
+	return a-b;
 }
